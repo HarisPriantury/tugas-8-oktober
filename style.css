@@ -1,0 +1,218 @@
+* html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+}
+.navbar {
+    /* background-color: aquamarine; */
+    position: static;
+    width: 1280px;
+    margin: 30px;
+    height: 48px;
+    left: 80px;
+    top: 40px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    color: #FF5F26;
+    left: 110px;
+}
+h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 100%;
+    /* background-color: aqua; */
+    color: #3B3949;
+    position: static;
+    width: 125px;
+    height: 28px;
+    left: 50px;
+    top: 20px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    position: absolute;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+
+}
+/* img{
+    width: 100px;
+} */
+
+.navbar .ellipse{
+    width: 10px;
+    height: 10px;
+    top: 1px;
+    left: -7px;
+    position: relative;
+
+}
+.navbar .notifikasi {
+    width: 17px;
+    height: 20px;
+    top: 15px;
+    left: 3.5px;
+    position: relative;
+}
+.userprofil{
+    /* border: 2px solid black; */
+}
+.navbar .fotoprofil {
+    width: 36px;
+    height: 36px;
+    top: 6px;
+    left: 6px;
+    position: relative;
+    align-items: center
+}
+.navbar .namaprofil{
+    width: ; 164px
+    height: 26px;
+}
+.navbar .segitiga{
+    width: 24px;
+    height: 24px;
+    top: 1px;
+    left: 140px;
+}
+.toDoList {
+    /* border: 2px solid white; */
+    box-shadow: 0px 0px 30px rgba(19,7,52,0.08);
+    position: absolute;
+    width: 800px;
+    height: 672px;
+    left: 320px;
+    top: 128px;
+}
+.toDoList .content {
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 720px;
+    height: 608px;
+    left: 40px;
+    top: 40px;
+}
+.content .task {
+    width: 720px;
+    height: 292px;
+    left: 40px;
+    top: 40px;
+    /* background-color: aliceblue; */
+}
+.title {
+    background: white;
+    width: 720px;
+    height: 78px;
+}
+.CTA {
+    position: absolute;
+    right: 0px;
+    top: 14px;
+}
+.mytask, .dolist , .listtugas , .filter p{
+    font-family: poppins;
+    /* margin-left: 40px; */
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+.mytask{
+   font-weight: 500;
+   letter-spacing: 1px; 
+   size: 16px;
+   line-height: 16px;
+   color: #FF5F26;
+}
+.dolist {
+    color: #293038;
+    size: 24px;
+    font-size: 24px;
+    font-weight: 500px;
+    font-style: normal;
+}
+.listtugas {
+    color: #7A7F83;
+    font-weight: 400;
+    font-size: 16px;
+}
+.filter{
+    /* background-color: aqua; */
+    height: 44px;
+}
+.dropdown{
+    position: absolute;
+    right: 0px;
+}
+.filter p {
+    color: #7A7F83;
+    font-family: poppins;
+    size: 16px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.isitask{
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #293038;
+
+}
+
+
+.tugas {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #7A7F83;
+}
+
+.frame1 {
+    background-color: #FFEBD3;
+    width: 66px;
+    height: 28px;
+    border-radius: 50px;
+    color: #FF5F26;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+}
+.frame2 {
+    background-color: #FFEBD3;
+    width: 97px;
+    height: 28px;
+    border-radius: 50px;
+    color: #FF5F26;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+}
+.finish {
+    height: 72px;
+    width: 720px;
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    line-height: 72px;
+    font-family: poppins;
+    size: 18px;
+    color: #7A7F83;
+    border-top: 1px solid #CCCED2;
+
+}
+.finish img {
+    
+}
+
+
